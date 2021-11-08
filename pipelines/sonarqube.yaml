@@ -24,7 +24,7 @@ spec:
       containers:
       - name: sonarqube
         imagePullPolicy: Always
-        image: docker.io/9.1.0-community
+        image: docker.io/sonarqube:9.1.0-community
         ports:
         - containerPort: 9000
           protocol: TCP
