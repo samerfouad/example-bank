@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: transaction-service
-        image: ykoyfman/bank-transaction-service:1.0
+        image: docker.io/samerfouad/lab-transaction:1.0
         imagePullPolicy: Always
         ports:
         - name: http-server
