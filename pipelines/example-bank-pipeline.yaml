@@ -106,7 +106,7 @@ spec:
         - name: COMMANDS
           value: >
             oc apply -f
-            https://raw.githubusercontent.com/IBM/example-bank/main/bank-app-backend/user-service/deployment.yaml
+            https://raw.githubusercontent.com/samerfouad/example-bank/main/bank-app-backend/user-service/deployment.yaml
             -n example-bank
       runAfter:
         - build-user
