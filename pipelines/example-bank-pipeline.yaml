@@ -94,7 +94,7 @@ spec:
         - name: COMMANDS
           value: >
             oc apply -f
-            https://raw.githubusercontent.com/IBM/example-bank/main/bank-app-backend/transaction-service/deployment.yaml
+            https://raw.githubusercontent.com/samerfouad/example-bank/main/bank-app-backend/transaction-service/deployment.yaml
             -n example-bank
       runAfter:
         - build-transaction
@@ -118,7 +118,7 @@ spec:
         - name: COMMANDS
           value: >
             oc apply -f
-            https://raw.githubusercontent.com/IBM/example-bank/main/deployment.yaml
+            https://raw.githubusercontent.com/samerfouad/example-bank/main/deployment.yaml
             -n example-bank
       runAfter:
         - build-transaction
